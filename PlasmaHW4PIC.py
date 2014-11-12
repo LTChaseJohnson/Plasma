@@ -5,27 +5,21 @@ import matplotlib.pyplot as plt
 
 q = 1.602E-19
 m = 9.109E-27
-dt = 1E-8
+dt = 1E-7
 N = 100
 t = np.linspace(0,dt*N,N)
-'''t0 = 0
-t1 = 5
-
-t = linspace(t0, t1, (t1 - t0)/dt)
-
-n = len(t)
-print "Number of elements in t array: ", n'''
 
 r = zeros((N,3))
 v = zeros((N,3))
 
 r[0] = [0.0, 0.0, 0.0]
-v[0] = [10**3, 10**3, 10**3]
+v[0] = [10**5, 10**5, 10**5]
 
 B = array([0.0, 0.0, 0.1])
+E = array([1000.0,0.0,0.0])
 
 for i in range(N-1):
-    a   = q/m* cross(v[i],B) 
+    a   = q/m*E + q/m* cross(v[i],B) 
     v[i+1] = v[i] + a*dt
     r[i+1] = r[i] + v[i+1]*dt
 
