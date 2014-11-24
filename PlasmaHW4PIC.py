@@ -9,10 +9,12 @@ m = input ('Enter particle mass: ')
 dt = input ('Enter time step size: ')
 N = 100
 Np = input ('Enter number of particles: ')
+
+# Establishes time scale based on number of time steps and step size
 t = np.linspace(0,dt*N,N)
 
 # Establishes position and velocity arrays depending on
-# desired time steps and final time
+# desired time steps
 r = np.zeros((N,3,Np))
 v = np.zeros((N,3,Np))
 
@@ -21,10 +23,9 @@ v = np.zeros((N,3,Np))
 # removes positive bias in initial velocities
 for n in range(Np):
     r[0,:,n] = [0.0, 0.0, 0.0]
-    v[0,:,n] = [10**3*(np.random.random()-np.random.random()
-), 10**3*(np.random.random()-np.random.random()
-), 10**3*(np.random.random()-np.random.random()
-)]
+    v[0,:,n] = [10**5*(np.random.random()-np.random.random()), 
+    10**5*(np.random.random()-np.random.random()), 
+    10**5*(np.random.random()-np.random.random())]
 
 # Constant B and E Fields
 B = np.array([0.0, 0.0, 0.1])
@@ -32,6 +33,8 @@ E = np.array([1000.0,0.0,0.0])
 
 # Calculates the acceleration from Newton's Law
 # Uses step approximation to calculate future position
+# This assumes a constant Electric and Magnetic field
+# and does not take into consideration changes in charge density!!  (Sorry!)
 for i in range(N-1):
     for n in range(Np):
         a   = q/m*E + q/m* np.cross(v[i,:,n],B)
@@ -61,4 +64,5 @@ for n in range(Np):
     ax = fig.gca(projection='3d')
     ax.plot(r[:,0,n], r[:,1,n], r[:,2,n])
 
+print ('The position of the particle is: '),r[N-1,:,Np-1]
 plt.show()
