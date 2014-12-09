@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.18)  8 DEC 2014 15:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.18)  9 DEC 2014 09:08
 entering extended mode
 **Plasma*Research*Paper.tex
 ("C:\Users\chasevjohnson\Documents\GitHub\Plasma\Plasma Research Paper.tex"
@@ -99,47 +99,90 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 9.
- [1
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 15.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
+
+<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Dendy1".jpg, id=1, 
+345.54094pt x 371.88937pt>
+File: "../../../Dropbox/Graduate_School/Plasma/Plasma References/Dendy1".jpg Gr
+aphic file (type jpg)
+
+<use "../../../Dropbox/Graduate_School/Plasma/Plasma References/Dendy1".jpg>
+Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
+nces/Dendy1".jpg used on input line 25.
+(pdftex.def)             Requested size: 241.49895pt x 259.91788pt.
+
+[1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 29.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 29.
+<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Nature1".jpg, id=15
+, 602.25pt x 313.17pt>
+File: "../../../Dropbox/Graduate_School/Plasma/Plasma References/Nature1".jpg G
+raphic file (type jpg)
 
-Overfull \hbox (30.86182pt too wide) in paragraph at lines 29--30
+<use "../../../Dropbox/Graduate_School/Plasma/Plasma References/Nature1".jpg>
+Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
+nces/Nature1".jpg used on input line 32.
+(pdftex.def)             Requested size: 241.49895pt x 125.58116pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--36
+
+ []
+
+[2 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References/Den
+dy1.jpg>]
+Overfull \hbox (97.11195pt too wide) in paragraph at lines 45--46
+[]\OT1/cmr/m/n/10 Hood, A. W. "So-lar plas-mas" In Dendy, Richard (Ed.), $[]$
+ []
+
+
+Overfull \hbox (30.86182pt too wide) in paragraph at lines 47--48
 []\OT1/cmr/m/n/10 Fridman, Alexan-der and Lawrence A. Kennedy, $[]$,
  []
 
 
-Overfull \hbox (10.7507pt too wide) in paragraph at lines 30--31
+Overfull \hbox (10.7507pt too wide) in paragraph at lines 48--49
 []\OT1/cmr/m/n/10 Harry, John Earnest, $[]$, Wiley-VCH, 2010. 
  []
 
+[3 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References/Nat
+ure1.jpg>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ê in font cmr10!
-[2] ("C:\Users\chasevjohnson\Documents\GitHub\Plasma\Plasma Research Paper.aux"
-) ) 
+ [4]
+("C:\Users\chasevjohnson\Documents\GitHub\Plasma\Plasma Research Paper.aux") ) 
 Here is how much of TeX's memory you used:
- 1135 strings out of 493921
- 15213 string characters out of 3144852
- 66950 words of memory out of 3000000
- 4468 multiletter control sequences out of 15000+200000
+ 1168 strings out of 493921
+ 16235 string characters out of 3144852
+ 66966 words of memory out of 3000000
+ 4493 multiletter control sequences out of 15000+200000
  8848 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,19p,955b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Plasma Research Paper.pdf" (2 pages, 110783 bytes).
+ 27i,6n,19p,955b,224s stack positions out of 5000i,500n,10000p,200000b,50000s
+<
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Plasma Research Paper.pdf" (4 pages, 196257 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
