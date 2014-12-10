@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.18)  10 DEC 2014 16:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.18)  10 DEC 2014 17:24
 entering extended mode
 **Plasma*Research*Paper.tex
 ("C:\Users\chasevjohnson\Documents\GitHub\Plasma\Plasma Research Paper.tex"
@@ -103,14 +103,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 15.
-
-Overfull \hbox (21.79367pt too wide) in paragraph at lines 15--16
-\OT1/cmr/m/n/10 lines are bro-ken and then re-com-bine and is shown in Fig-ure 
-1.$[]$
- []
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -154,11 +148,6 @@ Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
 nces/Chapman1".jpg used on input line 41.
 (pdftex.def)             Requested size: 172.5pt x 131.50706pt.
 
-Overfull \hbox (57.19498pt too wide) in paragraph at lines 38--46
-\OT1/cmr/m/n/10 vel-op-ment of new con-fine-ment tech-niques in the field of pl
-asma fusion.$[]$ 
- []
-
 [2 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References/Den
 dy1.jpg>] [3 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma Refe
 rences/Nature1.jpg> <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plas
@@ -198,9 +187,14 @@ Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
 nces/Yamada1".jpg used on input line 89.
 (pdftex.def)             Requested size: 172.5pt x 129.77856pt.
 
-[5 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References/Cha
-pman2.jpg>]
-<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Hastie1".jpg, id=35
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Hastie1".jpg, id=32
 , 267.24844pt x 225.09094pt>
 File: "../../../Dropbox/Graduate_School/Plasma/Plasma References/Hastie1".jpg G
 raphic file (type jpg)
@@ -210,11 +204,14 @@ Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
 nces/Hastie1".jpg used on input line 97.
 (pdftex.def)             Requested size: 172.5pt x 145.29416pt.
 
-[6 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References/Cha
-pman3.jpg> <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma Refere
-nces/Yamada1.jpg>]
-<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman4".jpg, id=4
-0, 261.22594pt x 251.43938pt>
+[5 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References/Cha
+pman2.jpg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman4".jpg, id=3
+6, 261.22594pt x 251.43938pt>
 File: "../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman4".jpg 
 Graphic file (type jpg)
 
@@ -223,13 +220,7 @@ Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
 nces/Chapman4".jpg used on input line 105.
 (pdftex.def)             Requested size: 172.5pt x 166.03873pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
-\OT1/cmr/m/n/10 of flux sur-faces (iii)Deformation of mag-netic is-land (iv)Com
-plete
- []
-
-
-<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Hastie2".jpg, id=41
+<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Hastie2".jpg, id=37
 , 656.4525pt x 451.6875pt>
 File: "../../../Dropbox/Graduate_School/Plasma/Plasma References/Hastie2".jpg G
 raphic file (type jpg)
@@ -239,7 +230,7 @@ Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
 nces/Hastie2".jpg used on input line 112.
 (pdftex.def)             Requested size: 172.5pt x 118.69035pt.
 
-<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Yamada2".jpg, id=42
+<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Yamada2".jpg, id=38
 , 388.45125pt x 466.74374pt>
 File: "../../../Dropbox/Graduate_School/Plasma/Plasma References/Yamada2".jpg G
 raphic file (type jpg)
@@ -259,38 +250,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--124
  []
 
 
-Overfull \hbox (34.34235pt too wide) in paragraph at lines 102--124
-\OT1/cmr/m/n/10 while ac-tual saw-tooth crashes oc-cur on timescales $\OMS/cmsy
-/m/n/10  \OT1/cmr/m/n/10 20\OML/cmm/m/it/10 s$\OT1/cmr/m/n/10 .$[]$
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 102--124
 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References/Has
-tie1.jpg>] [8 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma Ref
-erences/Chapman4.jpg> <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Pl
-asma References/Hastie2.jpg>]
-Overfull \hbox (3.09988pt too wide) in paragraph at lines 125--126
-\OT1/cmr/m/n/10 re-ac-tions is thought to ac-tu-ally sta-bi-lize saw-tooth osci
-llations.$[]$
- []
-
-[9 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References/Yam
-ada2.jpg>]
-<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman5".jpg, id=5
-3, 444.91219pt x 288.3272pt>
+[6 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References/Cha
+pman3.jpg> <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma Refere
+nces/Yamada1.jpg>] [7 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Pl
+asma References/Hastie1.jpg> <C:/Users/chasevjohnson/Dropbox/Graduate_School/Pl
+asma/Plasma References/Chapman4.jpg>] [8 <C:/Users/chasevjohnson/Dropbox/Gradua
+te_School/Plasma/Plasma References/Hastie2.jpg> <C:/Users/chasevjohnson/Dropbox
+/Graduate_School/Plasma/Plasma References/Yamada2.jpg>]
+<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman5".jpg, id=4
+9, 444.91219pt x 288.3272pt>
 File: "../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman5".jpg 
 Graphic file (type jpg)
 
@@ -299,13 +271,8 @@ Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
 nces/Chapman5".jpg used on input line 132.
 (pdftex.def)             Requested size: 172.5pt x 111.78722pt.
 
-[10 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References/Ch
-apman5.jpg>]
-Overfull \hbox (10.7507pt too wide) in paragraph at lines 147--148
-[]\OT1/cmr/m/n/10 Harry, John Earnest, $[]$, Wiley-VCH, 2010. 
- []
-
-[11]
+[9] [10 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma Reference
+s/Chapman5.jpg>] [11]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ê in font cmr10!
@@ -314,11 +281,11 @@ Missing character: There is no ê in font cmr10!
 Here is how much of TeX's memory you used:
  1222 strings out of 493921
  19208 string characters out of 3144852
- 70041 words of memory out of 3000000
+ 71041 words of memory out of 3000000
  4538 multiletter control sequences out of 15000+200000
  8848 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,19p,1220b,224s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,6n,19p,1180b,224s stack positions out of 5000i,500n,10000p,200000b,50000s
 <
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
@@ -332,11 +299,10 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Plasma Research Paper.pdf" (12 pages, 999352 bytes).
+/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Plasma Research Paper.pdf" (12 pages, 987613 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 104 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
