@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.18)  11 DEC 2014 11:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.18)  11 DEC 2014 13:13
 entering extended mode
 **Plasma*Research*Paper.tex
 ("C:\Users\chasevjohnson\Documents\GitHub\Plasma\Plasma Research Paper.tex"
@@ -318,7 +318,7 @@ Underfull \hbox (badness 2564) in paragraph at lines 96--96
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 96--96
-\OT1/cmr/m/n/10 per-a-ture du-ing
+\OT1/cmr/m/n/10 per-a-ture dur-ing
  []
 
 
@@ -440,7 +440,7 @@ Missing character: There is no  in font cmr10!
 Here is how much of TeX's memory you used:
  1447 strings out of 493921
  22576 string characters out of 3144852
- 77282 words of memory out of 3000000
+ 76282 words of memory out of 3000000
  4749 multiletter control sequences out of 15000+200000
  8848 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -459,7 +459,7 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Plasma Research Paper.pdf" (13 pages, 988097 bytes).
+Output written on "Plasma Research Paper.pdf" (13 pages, 988104 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
