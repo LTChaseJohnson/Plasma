@@ -1,13 +1,10 @@
 \documentclass{article}
-\usepackage{graphicx}
-
+\usepackage[pdftex]{graphicx}
+\usepackage{sidecap}
 \begin{document}
-
 \title{MAGNETIC RECONNECTION IN SPACE AND LABORATORY PLASMAS AND IT’S IMPLICATION IN TOKAMAK PLASMA CONFINEMENT}
 \author{Chase Johnson}
-
 \maketitle
-
 \begin{abstract}
 Magnetic reconnection is the topological restructuring of magnetic field lines in high temperature plasmas.    The aim of this paper will be to describe the fundamental physics of magnetic reconnection and discuss the various MHD models to describe magnetic reconnection.  Magnetic reconnection as observed in both space plasmas and laboratory plasmas results in significant changes in kinetic and thermal properties of the plasma.  This inherently deteriorates the ability to confine plasma in the laboratory.  The second part of this paper will describe the fundamental physics of reconnection and its role in sawtooth instabilities in tokamak plasma devices.  Due to the undesirable effects of magnetic reconnection in laboratory plasmas, several techniques have been developed to control sawtooth instabilities.  The efficacy of these techniques to include current drive schemes and ion population control will be discussed.
 \end{abstract}
@@ -20,31 +17,35 @@ Reconnection is the rearranging of the magnetic topology where magnetic field li
 \item affect fluxes of fast particles and heat due to changes in global magnetic field lines
 \end{itemize}
 The first two effects are especially important for stability of confined plasmas due to causing major and minor disruptions in tokomak discharges that will be discussed in this paper.$^{20}$
-\begin{figure}[h]
+\begin{SCfigure}
+  \centering
+  \fbox{
+  \includegraphics[width=0.6\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Dendy1"}
+  \caption{An intial perturbation generates magnetic pressure to counter. However, magnetic field diffusion occurs rapidly in locations of strong flux gradients. As magnetic field diffuses, perturbation is allowed to grow and alter topology.$^{11}$}
+  \label{fig:Dendy1}}
+\end{SCfigure}
+\subsection{Reconnetion in Space Plasmas}
+Magnetic reconnection is seen directly in many aspects of space plasmas.  Solar flares and coronal mass ejections were some of the first events studied to understand magnetic reconnection.$^{20}$  Coronal mass ejections and solar flares result from converting magnetic energy into heat and particle energy during a magnetic reconnection event.$^{16}$  Additionally, a small scale reconnection model is thought to be responsible for the higher density slow solar wind originating from the Sun's equatorial region.$^{16}$  Reconnection between solar wind magnetic field lines and the Earth's magnetosphere field lines is also thought to be responsible for the ability of solar particles to penetrate the magnetosphere(Figure 2).$^{7,16}$
+\begin{SCfigure}
 \centering
-\includegraphics[width=0.5\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Dendy1"}
-\caption{An intial perturbation generates magnetic pressure to counter. However, magnetic field diffusion occurs rapidly in locations of strong flux gradient. As magnetic field diffuses, perturbation is allowed to grow and alter topology.$^{11}$}
-\label{fig:Dendy1}
-\end{figure}
-\subsection{Reconnection in Space Plasmas}
-Magnetic reconnection is seen directly in many aspects of space plasmas.  Solar flares and coronal mass ejections were one of the first events studied to understand magnetic reconnection.$^{20}$  Coronal mass ejections and solar flares result form converting magnetic energy into heat and particle energy during a magnetic reconnection event.$^{16}$  Additionally, a small scale reconnection model is thought to be responsible for the higher density slow solar wind originating from the Sun's equatorial region.$^{16}$  Reconnection between solar wind magnetic field lines and the Earth's magnetoshpere field lines is also thought to be responsible for the penetration of solar particles to penetrate the magnetosphere(Figure 2).$^{7,16}$\\\\\begin{figure}
-\centering
-\includegraphics[width=0.5\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Nature1"}
-\caption{Reconnection at magnetopause$^{7}$}
-\label{fig:Nature1}
-\end{figure}
+\fbox{
+\includegraphics[width=0.7\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Nature1"}
+\caption{Reconnection of solar and terrestrial magnetic field lines at magnetopause$^{7}$}
+\label{fig:Nature1}}
+\end{SCfigure}
 Understanding reconnection in space plasma is vitally important to protecting space satellites, astronauts, and even terrestrial utilities from the damaging effects of highly energized charged particles from solar plasma.
 \subsection{Reconnection in Laboratory Plasmas}
 Reconnection is believed to be responsible for various anomalies in tokomak, reverse pinch, and spheromak devies.  In tokomak devices, magnetic reconnection manifests in a periodic reorganization of core plasma density and temperature(Figure 3).  
-\begin{figure}[h]
+\begin{SCfigure}
 \centering
-\includegraphics[width=0.5\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman1"}
+\fbox{
+\includegraphics[width=0.6\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman1"}
 \caption{Soft X-ray emissions give core temperature indications. This shows the core plasma temperature periodically dropping associated with an increase in edge plasma temperature.$^{2}$}
-\label{fig:Chapman1}
-\end{figure}
+\label{fig:Chapman1}}
+\end{SCfigure}
 \\In reverse pinch and spheromak device, magnetic reconnection plays a role in the magnetic relaxation.  Magnetic relaxation is a self-organization of confined plasma that is thought to be a preferred state of minimal helicity.$^{8,20}$  Magnetic reconnection events are believed to be a driving factor in changes of helicity and therefore a driving factor for confined plasma self-organization.$^{8}$  Understanding these phenomena is important and is a driving factor in the development of new confinement techniques in the field of plasma fusion.$^{1,2,18}$
 \subsection{Fundamental Physics of Reconnection}
-Davidson, Priest, and Garcia all present very good introductions to the relevant magnetohydrodynamics of magnetic reconnection, in particular Chapter 6 of Eric Priests textbook.  For this paper we will focus on the derivation of magnetic diffusion and how this plays a role in magnetic reconnection.\\
+Davidson, Priest, and Garcia all present very good introductions to the relevant magnetohydrodynamics of magnetic reconnection, in particular Chapter 6 of Eric Priest's textbook.  For this paper we will focus on the derivation of magnetic diffusion and how this plays a role in magnetic reconnection.\\\\
 Beginning with the differential forms of Ampere's Circuit Law and Gauss' Magnetic Law:
 $$\bigtriangledown \times \vec{H}=\vec{J}+\frac{\partial \vec{D}}{\partial t} \textbf{ or } \bigtriangledown \times \vec{B}=\mu\vec{J}+\frac{1}{c^2}\frac{\partial \vec{E}}{\partial t}$$
 $$\bigtriangledown \cdot \vec{B} = 0$$
@@ -58,83 +59,96 @@ To simplify further we can use $\bigtriangledown\times\left(\bigtriangledown\tim
 $$\frac{\partial\vec{B}}{\partial t}=\bigtriangledown\times\left(\vec{v}\times\vec{B}\right)-\eta\bigtriangledown^2\vec{B}$$
 We can introduce a new non-dimensional number called the magnetic Reynold's number, $R_m$
 $$R_m=\frac{\left|\bigtriangledown\times\vec{v}\times\vec{B}\right|}{\left|\eta\bigtriangledown^2\vec{B}\right|}\sim\frac{u_0 L}{\eta}$$
-Typically velocity and length scales are much larger than $\eta$ and this results in $R_m\gg1$ and diffusivity can be neglected (this is considered idealized)$^{8}$;
+Typically velocity and length scales are much larger than $\eta$ and this results in $R_m\gg1$ and diffusivity can be neglected (this is considered idealized);$^{8}$
 $$\frac{\partial\vec{B}}{\partial t}=\bigtriangledown\times\left(\vec{v}\times\vec{B}\right)$$
-In this case, the magnetic field lines are similar to elastic bands frozen in the vector field.$^{5,8}$  This means that any flux line through a closed loop will be conserved and the magnetic flux lines provide a restoring force to a disturbance.  If, however, the gradient of the magnetic field is very large, diffusion can no longer be neglected.\\\\
-Now we can revisit Figure 1 and discuss the evolution of this process further.  In Figure 1a, normal magnetic flux lines exist in anti-parallel directions.  In Figure 1b, a perturbation pushes outward (not shown) and the ideal magnetic flux lines respond with a restoring force.  As the perturbation grows and the restoring force grows, the magnetic flux lines become closer and closer.  This increases the gradient of the magnetic field and diffusion sets in.  In Figure 1d, magnetic flux lines diffuse and reconnect.  In the Sun this perturbation is a manifestation of differential rotation rates that tend to twist the magnetic field lines.  In tokomaks, this perturbation is caused from a kink in the magnetic field due to poloidal and toroidal magnetic interactions.$^{2,9,19,20,21}$  This will be discussed in the next section.
+In this case, the magnetic field lines are similar to elastic bands frozen in the vector field.$^{5,8}$  This means that any flux line through a closed loop will be conserved and the magnetic flux lines provide a restoring force to a disturbance.  If, however, the gradient of the magnetic field is very large and the $-\eta \bigtriangledown^2\vec{B}$ term can no longer be neglected; diffusion sets in.\\\\
+Now we can revisit Figure 1 and discuss the evolution of this process further.  In Figure 1a, normal magnetic flux lines exist in anti-parallel directions.  In Figure 1b, a perturbation pushes outward (not shown) and the ideal MHD magnetic flux lines respond with a restoring force.  As the perturbation grows and the restoring force grows, the magnetic flux lines become closer and closer.  This increases the gradient of the magnetic field and the characteristics of flux change from ideal MHD to diffusive MHD.  In Figure 1d, magnetic flux lines diffuse and reconnect.  In the Sun this perturbation is a manifestation of differential rotation rates that tend to twist the magnetic field lines.  In tokomaks, this perturbation is caused from a kink in the magnetic field due to poloidal and toroidal magnetic interactions.$^{2,9,19,20,21}$  This will be discussed in the next section.
 \section{Sawtooth Instabilities in Tokomak Devices}
 Tokomak plasmas are generally susceptible to two types of instabilities, microscopic and macroscopic.  Microscopic instabilities generally dictate transport properties of a confined plasma, but in general do not cause significant disruption of confinement.  Macroscopic instabilities however, can and often do result in total loss of plasma confinement.$^{9}$  Sawtooth instabilities are unique in that they are macroscopic instabilities but do not result in a termination of discharge.$^{9}$  They can however trigger other instabilities.  In this section, we will discuss the characteristics of sawtooth instabilities in tokomak devices to include; cycle characteristics, energy transport, and problems associated with sawtooth instabilities.  We will then discuss the current theories on causes of sawtooth instabilities and the methods of controlling them.
 \subsection{Sawtooth Characteristics}
 Sawtooth characteristics were discovered in 1974 and have now been verified on all tokomak devices.$^{9}$  Sawtooth instabilities are periodic redistributions of core plasma and exist in three phases(Figure 4);$^{2}$
-\begin{itemize}
+\begin{enumerate}
 \item an approximately linear increase in both plasma temperature and density
 \item an oscillatory precursor phase
 \item a final rapid drop in both temperature and plasma density.
-\end{itemize}
-\begin{figure}[h]
+\end{enumerate}
+\begin{SCfigure}
 \centering
-\includegraphics[width=0.5\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman2"}
+\fbox{
+\includegraphics[width=0.7\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman2"}
 \caption{Sawtooth characteristic from JET showing all three phases$^{2}$}
-\label{fig:Chapman2}
-\end{figure}
+\label{fig:Chapman2}}
+\end{SCfigure}
 When a sawtooth crash occurs, high energy electrons diffuse to cooler portions of the plasma resulting in a flattening $T_e$ profile.  This characteristic can be seen in both Figures 5 and 6.
-\begin{figure}[h]
+\begin{SCfigure}
 \centering
-\includegraphics[width=0.5\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman3"}
-\caption{Electron temperature profile every $20\mu s$. In f, the temperature flattens out more on the interior where the higher magnetic field exists. The crash occurs between frames f and g.$^{3}$}
-\label{fig:Chapman3}
-\end{figure}
-\begin{figure}[h]
+\fbox{
+\includegraphics[width=0.7\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman3"}
+\caption{Electron temperature profile every $20\mu s$. In (f), the temperature flattens out more on the interior where the higher magnetic field exists. The crash occurs between frames f and g.$^{3}$}
+\label{fig:Chapman3}}
+\end{SCfigure}
+\begin{SCfigure}
 \centering
-\includegraphics[width=0.5\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Yamada1"}
+\fbox{
+\includegraphics[width=0.7\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Yamada1"}
 \caption{Two dimensional profile of electron temperature duing sawtooth crash. Similar flattening characteristics on the interior side can be seen.$^{19}$}
-\label{fig:Yamada1}
-\end{figure}
+\label{fig:Yamada1}}
+\end{SCfigure}
 \subsection{Tokamak Plasma Stability}
-Before we can discuss the theories for sawtooth instabilities, we need to qualitatively discuss confined plasma stability.  To do this we will discuss the safety factor, $q=\frac{m}{n}$ where $m$ is the poloidal number and $n$ is the toroidal number.  Essentially the safety factor is the ratio to the number of times a field line will go around toroidally for one poloidal circuit.$^{13}$  A more in depth review of MHD stability theory than is provided here will show that low rational numbers for $q$ are least stable and tend to develop helical perturbations that can lead to kinks.$^{13}$  An interesting result of MHD stability analysis is that if an $m=n=1$ kink instability exists(Figure 7), the central safety factor, $q_0$, must be greater than one to diminish the perturbation.$^{12}$  The large gradient of magnetic field can cause a transition from ideal to diffusion MHD where magnetic reconnection can occur.$^{Priest}$  This is where Kadomtsev comes in.
-\begin{figure}[h]
+Before we can discuss the theories for sawtooth instabilities, we need to qualitatively discuss confined plasma stability.  To do this we will discuss the safety factor, $q=\frac{m}{n}$ where $m$ is the poloidal number and $n$ is the toroidal number.  Essentially the safety factor is the ratio to the number of times a field line will go around toroidally for one poloidal circuit.$^{13}$  A more in depth review of MHD stability theory than is provided here will show that low rational numbers for $q$ are least stable and tend to develop helical perturbations that can lead to kinks.$^{13}$  An interesting result of MHD stability analysis is that if an $m=n=1$ kink instability exists(Figure 7), the central safety factor, $q_0$, must be greater than one to diminish the perturbation.$^{12}$  The large gradient of magnetic field can cause a transition from ideal to diffusion MHD where magnetic reconnection can occur.$^{16}$  This is where Kadomtsev comes in.
+\begin{SCfigure}
 \centering
-\includegraphics[width=0.5\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Hastie1"}
+\fbox{
+\includegraphics[width=0.6\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Hastie1"}
 \caption{View of normal and $m=n=1$ kink instability in a tokomak.$^{9}$}
-\label{fig:Hastie1}
-\end{figure}
+\label{fig:Hastie1}}
+\end{SCfigure}
 \subsection{Sawtooth Theories}
-The initial theory for the cause of sawtooth instabilities was by Boris Kadomtsev who postulated that the cycle begins with an $m=n=1$ kink instability where the central saftey factor $q_0<1$.$^{2,9,19}$  Kadomtsev postulated that the kink instability would drive magnetic reconnection to restore a stable reconfiguration causing a transient the re-established a $q_0>1$ condition in the plasma.  This is postulated to occur due to the kink mode createes a crowding of flux surfaces on one side triggering separation and the formation of a magnetic island.  As the magnetic island grows, surfaces with equal helical flux will touch and reconnect(See Figure 8).$^{2}$  Ohmic heating was then thought to be responsible for driving $T_e$ up and forcing $q_0<0$ to restart the cycle.$^{9}$  Kadomtsev's model has been the standard driving much of the research in sawtooth oscillations.
-\begin{figure}[h]
+The initial theory for the cause of sawtooth instabilities was by Boris Kadomtsev who postulated that the cycle begins with an $m=n=1$ kink instability where the central safety factor $q_0<1$.$^{2,9,19}$  Kadomtsev postulated that the kink instability would drive magnetic reconnection to restore a stable reconfiguration causing a transient that re-established a $q_0>1$ condition in the plasma.  This is postulated to occur due to the kink mode creating a crowding of flux surfaces on one side triggering separation and the formation of a magnetic island.  As the magnetic island grows, surfaces with equal helical flux will touch and reconnect(See Figure 8).$^{2}$  Ohmic heating was then thought to be responsible for driving $T_e$ up and forcing $q_0<0$ to restart the cycle.$^{9}$  Kadomtsev's model has been the standard driving much of the research in sawtooth oscillations.
+\begin{SCfigure}
 \centering
-\includegraphics[width=0.5\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman4"}
+\fbox{
+\includegraphics[width=0.6\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman4"}
 \caption{(i)Magnetic flux surfaces prior to reconnection (ii)Reconnection of flux surfaces (iii)Deformation of magnetic island (iv)Complete reconnection.$^{2}$}
-\label{fig:Chapman4}
-\end{figure}
-\\\\Initial experiments indeed supported the Kadomtsev model$^{17}$, but as devices got larger and data collection became more accurate, discrepancies were noted.  One discrepancy is that expected central safety factors, $q_0$, should be restored to a value greater than one after a sawtooth crash.  However increased precision yield experimental measurements showing $q_0$ never reaches 1.0 post crash(See Figures 9 and 10).  This is indicative that full Kadomtsev reconnection is not occurring and has led to a theory that Kadomtsev reconnection is interrupted due to rapid heat diffusion through the reconnection region.$^{20}$
-\begin{figure}[h]
+\label{fig:Chapman4}}
+\end{SCfigure}
+\\\\Initial experiments indeed supported the Kadomtsev model$^{17}$, but as devices got larger and data collection became more accurate, discrepancies between theoretical predictions and experimental results were noted.  One discrepancy is that expected central safety factors, $q_0$, should be restored to a condition $q_0\ge 1$ after a sawtooth crash.  However increased precision yielded experimental measurements showing $q_0$ never reaches 1.0 post crash(See Figures 9 and 10).  This is indicative that full Kadomtsev reconnection is not occurring and has led to a theory that Kadomtsev reconnection is interrupted due to rapid heat diffusion through the reconnection region.$^{20}$
+\\\\Additional data has been collected that deviates from the Kadomtsev model.  Reconnection times are significantly faster than those predicted by the Kadomtsev model, since the Kadomtsev model incorporates the Sweet-Parker model for reconnection.  Reconnective theory predicts sawtooth crash times of $\tau_K \approx340 \mu s$ while actual sawtooth crashes occur on timescales $\leq20\mu s$.$^{2,3,19}$  As Chapman explains, this is not surprising since the Sweet-Parker model of reconnection is only applicable to collisional plasmas, while tokamak plasmas have a collisionless behavior.
+\newpage
+\begin{SCfigure}
 \centering
+\fbox{
 \includegraphics[width=0.5\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Hastie2"}
-\caption{$q_0$ for TEXTOR.$^{9}$}
-\label{fig:Hastie2}
-\end{figure}
-\begin{figure}[h]
+\caption{$q_0$ measurements on the TEXTOR device.$^{9}$}
+\label{fig:Hastie2}}
+\end{SCfigure}
+\begin{SCfigure}
 \centering
+\fbox{
 \includegraphics[width=0.5\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Yamada2"}
-\caption{$q_0$ measurements on the TFTR.$^{19}$}
-\label{fig:Yamada2}
-\end{figure}
-\\\\Additional data has been collected that deviates from the Kadomtsev model.  Reconnection times are significantly faster than those predicted by the Kadomtsev model, since the Kadomtsev model incorporates the Sweet-Parker model for reconnection.  Reconnective theory predicts sawtooth crash times of $\tau_K \approx340 \mu s$ while actual sawtooth crashes occur on timescales $\leq20\mu s$.$^{2,3,19}$  As Chapman explains, this is not surprising since the Sweet-Parker model of reconnection is only applicable to collisional plasmas, while tokamak plasmas have a collisionless behavior.\\\\
-These contradictions have led to many additional theories on the cause of sawtooth crashes and the current widely accepted theory is a modified Kadomtsev model with interrupted reconnection.$^{2}$  The partial reconnection model is initialized with a kink instability and begins reconnection per the Kadomtsev model.  However, full reconnection is interrupted due to the faster heat diffusion than magnetic diffusion.  This heat conduction minimizes the pressure gradient driving the kink mode.$^{20}$  This causes the magnetic island to reach a critical width and creates two regions undergoing different relaxation processes, the core and the magnetic island.$^{15}$  This creates a complex diffusion event of two current sheets during a subsequent sawtooth ramp.$^{2}$  Even this theory isn't complete because it relies still on having a kink instability precursor.  There is evidence of precursor-less sawteeth and could imply that the kink mode instability is a consequence of some other factor rather than the cause of the collapse.$^{9}$
+\caption{$q_0$ measurements on the TFTR device.$^{19}$}
+\label{fig:Yamada2}}
+\end{SCfigure}
+These contradictions have led to many additional theories on the cause of sawtooth crashes and the current widely accepted theory is a modified Kadomtsev model with interrupted reconnection called the partial reconnection model.$^{2}$  The partial reconnection model is initialized with a kink instability and begins reconnection per the Kadomtsev model.  However, full reconnection is interrupted due to heat diffusion being faster than magnetic diffusion.  This heat conduction minimizes the pressure gradient driving the kink mode.$^{20}$  This causes the magnetic island to reach a critical width and creates two regions undergoing different relaxation processes, the core and the magnetic island.$^{15}$  This creates a complex diffusion event of two current sheets during a subsequent sawtooth ramp.$^{2}$  Even this theory isn't complete because it relies still on having a kink instability precursor.  There is evidence of precursor-less sawteeth and could imply that the kink mode instability is a consequence of some other factor rather than the cause of the collapse.$^{9}$
 \subsection{Controlling Sawtooth Oscillations}
-There are two main techniques for controlling sawtooth oscillations; stabilizing the oscillations to lengthen the time between crashes and destabilizing the oscillations to minimize the amplitude of crashes.$^{2}$  Stabilization of sawtooth oscillations will lengthen the period between sawtooth crashes and recent studies have shown that long period sawtooth oscillations can go on to cause other instabilities such as neo-classical tearing modes(NTMs) and edge localized modes(ELMs).$^{2}$  Additionally, fast helium alpha particles from fusion reactions is thought to actually stabilize sawtooth oscillations.$^{4,6}$  Because of this, most efforts to control sawtooth oscillations in ITER and future fusion devices are aimed at destabilizing sawtooth oscillations.  Techniques to destabilize sawtooth oscillations aim to shorten the period by creating conditions conducing to sawtooth crashes.  This minimizes the amplitude and shortens the period to reduce the potential for causing NTMs and ELMs.  An added benefit is that small amplitude sawtooth oscillations can aid in preventing an accumulation of helium ash in tokomak fusion devices.$^{2}$
-\subsubsection{Counter Current Neutral Beam Injection(NBI)}
-In typical co-current NBI, neutral atoms are injected into the plasma in the same toroidal direction as the plasma current.  In counter current NBI, neutral atoms are injected in the opposite direction of the toroidal plasma current$^{10}$  It was found using the MAST device that by injecting neutral particles in the counter current direction, sawtooth oscillation periods were reduced(Figure 11).$^{4}$
-\subsubsection{Cyclotron Current Drive}
-Another technique discussed in destabilizing sawtooth oscillations in ITER is the use of ion and electron cyclotron current drive(ECCD and ICCD).$^{4}$  Cyclotron current drive is the result of selectively heating ions or electrons traveling in one toroidal direction.  This selective heating will give those particular ions or electrons a greater contribution to the driving current.$^{14}$  Driving current using either ECCD or ICCD is thought to raise the magnetic shear at the magnetic island core interface causing earlier sawtooth oscillation destabilization.$^{4}$  
-\begin{figure}
+\subsubsection{Sawtooth Stabilization}
+There are two options for controlling sawtooth oscillations; stabilizing and destabilizing.  Stabilizing the oscillations would delay the sawtooth crash which would lengthen the time between crashes.  Initially, this would seem like a beneficial tactic to improve confinement ability however, stabilization of sawtooth oscillations will lengthen the period between sawtooth crashes.  Recent studies have shown that long period sawtooth oscillations can go on to cause other instabilities such as neo-classical tearing modes(NTMs) and edge localized modes(ELMs), both can lead to complete loss of confinement and damage to interior surfaces.$^{2}$  There are a couple examples of how sawtooth oscillations can be stabilized.  It is thought that fast alpha particles from fusion reactions will actually stabilize sawtooth oscillations.$^{4,6}$   Additionally, a recent study on electron cyclotron resonance heating(ECRH) in the KSTAR device in South Korea resulted in the development of multiple flux tubes that stabilized sawtooth oscillations, delaying crashes.  This new data suggests that ECRH has a side effect of lengthening sawtooth oscillations periods promoting detrimental NTMs and ELMs.  This is of concern for ITER because ITER will use ECRH as major heating and current drive mechanism.$^{1,21}$
+\subsubsection{Sawtooth Destabilization}
+Because of the detrimental consequences of delaying sawtooth crashes, most efforts to control sawtooth oscillations in ITER and future fusion devices are aimed at destabilizing sawtooth oscillations.  Techniques to destabilize sawtooth oscillations aim to shorten the period by creating conditions conducive to sawtooth crashes.  This minimizes the amplitude and shortens the period to reduce the potential for causing NTMs and ELMs.  An added benefit is that small amplitude sawtooth oscillations can aid in preventing an accumulation of helium ash in tokomak fusion devices.$^{2}$  Two methods of sawtooth destabilization are counter current neutral beam injection(NBI), and ion/electron cyclotron current drive(ICCD/ECCD).
+\paragraph{Counter Current NBI:}
+In typical co-current NBI, neutral atoms are injected into the plasma in the same toroidal direction as the plasma current.  In counter current NBI, neutral atoms are injected in the opposite direction of the toroidal plasma current.$^{10}$  It was found using the MAST device that by injecting neutral particles in the counter current direction, sawtooth oscillation periods were reduced(Figure 11).$^{4}$
+\newpage
+\paragraph{Cyclotron Current Drive:}
+Another technique discussed in destabilizing sawtooth oscillations in ITER is the use of ECCD and ICCD.$^{4}$  Cyclotron current drive is the result of selectively heating ions or electrons traveling in one toroidal direction by using radio frequencies tuned to cyclotron frequencies.  This selective heating will give those particular ions or electrons a greater contribution to the driving current.$^{14}$  Driving current using either ECCD or ICCD is thought to raise the magnetic shear at the magnetic island core interface causing earlier sawtooth oscillation destabilization.$^{4}$  
+\begin{SCfigure}
 \centering
-\includegraphics[width=0.5\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman5"}
+\fbox{
+\includegraphics[width=0.6\linewidth]{"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman5"}
 \caption{Sawtooth period vs. NBI. Here negative velocities are for counter current NBI while positive are co-current NBI.$^{4}$}
-\label{fig:Chapman5}
-\end{figure}
-\subsubsection{Additional Considerations for ITER}
- A recent study on electron cyclotron resonance heating(ECRH) in the KSTAR device in South Korea resulted in the development of multiple flux tubes that stabilized sawtooth oscillations, delaying crashes.  This new data suggests that ECRH has a side effect of lengthening sawtooth oscillations periods promoting detrimental NTMs and ELMs.  This is of concern for ITER because ITER will use ECRH as major heating and current drive mechanism.$^{1,21}$
+\label{fig:Chapman5}}
+\end{SCfigure}
+\section{Conclusions}
+Magnetic reconnection is a phenomena that has been studied for over half a century and great progress has been made in its fundamental physics.  Complications arise due to the complex conditions that precede the manifestation of reconnection resulting in complex theories including multi-fluid flow, ideal/diffusive MHD, and others.  In particular the theory for sawtooth oscillations is still incomplete and significant research is still being conducted in multiple confined plasma devices to further refine.  Understanding sawtooth oscillations is vitally important in developing sustained confinement for plasma fusion devices such as ITER.  Despite having an incomplete theory, empirical and experimental techniques have been developed to control sawtooth oscillations.  With larger devices set to come online and increased precision in data acquisition, a more complete theory for sawtooth oscillations is attainable and with it the ability to better confine plasma for fusion.
 \newpage
 \section{References}
 \begin{enumerate}

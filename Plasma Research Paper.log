@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.18)  11 DEC 2014 07:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.18)  11 DEC 2014 11:00
 entering extended mode
 **Plasma*Research*Paper.tex
 ("C:\Users\chasevjohnson\Documents\GitHub\Plasma\Plasma Research Paper.tex"
@@ -62,6 +62,19 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\sidecap\sidecap.sty"
+Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\SC@BOXWD=\dimen105
+\SC@CAPWD=\dimen106
+\SC@tempdima=\dimen107
+\SC@tempdimb=\dimen108
+\c@SC@C=\count88
+\SC@BOX=\box26
+)
 ("C:\Users\chasevjohnson\Documents\GitHub\Plasma\Plasma Research Paper.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -78,37 +91,61 @@ LaTeX Font Info:    ... okay on input line 4.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count88
-\scratchdimen=\dimen105
-\scratchbox=\box26
-\nofMPsegments=\count89
-\nofMParguments=\count90
+\scratchcounter=\count89
+\scratchdimen=\dimen109
+\scratchbox=\box27
+\nofMPsegments=\count90
+\nofMParguments=\count91
 \everyMPshowfont=\toks15
-\MPscratchCnt=\count91
-\MPscratchDim=\dimen106
-\MPnumerator=\count92
-\makeMPintoPDFobject=\count93
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen110
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
 \everyMPtoPDFconversion=\toks16
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everysel.sty"
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 126.
+)
+\CenteringLeftskip=\skip43
+\RaggedLeftLeftskip=\skip44
+\RaggedRightLeftskip=\skip45
+\CenteringRightskip=\skip46
+\RaggedLeftRightskip=\skip47
+\RaggedRightRightskip=\skip48
+\CenteringParfillskip=\skip49
+\RaggedLeftParfillskip=\skip50
+\RaggedRightParfillskip=\skip51
+\JustifyingParfillskip=\skip52
+\CenteringParindent=\skip53
+\RaggedLeftParindent=\skip54
+\RaggedRightParindent=\skip55
+\JustifyingParindent=\skip56
 )
 Missing character: There is no ‚ in font cmr17!
 Missing character: There is no Ä in font cmr17!
 Missing character: There is no ô in font cmr17!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 9.
+(Font)              <12> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 9.
+(Font)              <8> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 9.
+(Font)              <6> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 15.
+(Font)              <7> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 15.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+(Font)              <5> on input line 12.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
 
 <"../../../Dropbox/Graduate_School/Plasma/Plasma References/Dendy1".jpg, id=1, 
 345.54094pt x 371.88937pt>
@@ -118,7 +155,16 @@ aphic file (type jpg)
 <use "../../../Dropbox/Graduate_School/Plasma/Plasma References/Dendy1".jpg>
 Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
 nces/Dendy1".jpg used on input line 25.
-(pdftex.def)             Requested size: 172.5pt x 185.65482pt.
+(pdftex.def)             Requested size: 207.0021pt x 222.78918pt.
+
+Underfull \hbox (badness 1540) in paragraph at lines 26--26
+\OT1/cmr/m/n/10 How-ever, mag-netic field
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 26--26
+\OT1/cmr/m/n/10 lo-ca-tions of strong flux
+ []
 
 [1
 
@@ -130,11 +176,26 @@ raphic file (type jpg)
 
 <use "../../../Dropbox/Graduate_School/Plasma/Plasma References/Nature1".jpg>
 Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
-nces/Nature1".jpg used on input line 32.
-(pdftex.def)             Requested size: 172.5pt x 89.69878pt.
+nces/Nature1".jpg used on input line 34.
+(pdftex.def)             Requested size: 241.49895pt x 125.58116pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--37
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[][]\OT1/cmr/m/n/10 :
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+|\OT1/cmr/m/n/10 Reconnection
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 35--35
+\OT1/cmr/m/n/10 res-trial mag-netic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\OT1/cmr/m/n/10 field lines at
  []
 
 
@@ -145,14 +206,33 @@ Graphic file (type jpg)
 
 <use "../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman1".jpg>
 Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
-nces/Chapman1".jpg used on input line 41.
-(pdftex.def)             Requested size: 172.5pt x 131.50706pt.
+nces/Chapman1".jpg used on input line 44.
+(pdftex.def)             Requested size: 207.0021pt x 157.80847pt.
+
+Underfull \hbox (badness 1789) in paragraph at lines 45--45
+\OT1/cmr/m/n/10 sions give core tem-per-
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 45--45
+\OT1/cmr/m/n/10 shows the core plasma
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 45--45
+\OT1/cmr/m/n/10 tem-per-a-ture pe-ri-od-i-cally
+ []
 
 [2 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References/Den
 dy1.jpg>] [3 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma Refe
 rences/Nature1.jpg> <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plas
 ma References/Chapman1.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
 
  []
 
@@ -164,8 +244,13 @@ Graphic file (type jpg)
 
 <use "../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman2".jpg>
 Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
-nces/Chapman2".jpg used on input line 76.
-(pdftex.def)             Requested size: 172.5pt x 109.50818pt.
+nces/Chapman2".jpg used on input line 80.
+(pdftex.def)             Requested size: 241.49895pt x 153.31015pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[][]\OT1/cmr/m/n/10 :
+ []
+
 
 <"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman3".jpg, id=3
 0, 882.29625pt x 627.09282pt>
@@ -174,8 +259,43 @@ Graphic file (type jpg)
 
 <use "../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman3".jpg>
 Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
-nces/Chapman3".jpg used on input line 83.
-(pdftex.def)             Requested size: 172.5pt x 122.60315pt.
+nces/Chapman3".jpg used on input line 88.
+(pdftex.def)             Requested size: 241.49895pt x 171.6425pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+[][]\OT1/cmr/m/n/10 :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+|\OT1/cmr/m/n/10 Electron tem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+\OT1/cmr/m/n/10 per-a-ture pro-file
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+\OT1/cmr/m/n/10 the tem-per-a-ture
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+\OT1/cmr/m/n/10 on the in-te-rior
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+\OT1/cmr/m/n/10 mag-netic field
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+\OT1/cmr/m/n/10 oc-curs be-tween
+ []
+
 
 <"../../../Dropbox/Graduate_School/Plasma/Plasma References/Yamada1".jpg, id=31
 , 562.35094pt x 423.08063pt>
@@ -184,14 +304,32 @@ raphic file (type jpg)
 
 <use "../../../Dropbox/Graduate_School/Plasma/Plasma References/Yamada1".jpg>
 Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
-nces/Yamada1".jpg used on input line 89.
-(pdftex.def)             Requested size: 172.5pt x 129.77856pt.
+nces/Yamada1".jpg used on input line 95.
+(pdftex.def)             Requested size: 241.49895pt x 181.6887pt.
+
+Underfull \hbox (badness 2799) in paragraph at lines 96--96
+\OT1/cmr/m/n/10 men-sional pro-file
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 2564) in paragraph at lines 96--96
+\OT1/cmr/m/n/10 of elec-tron tem-
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\OT1/cmr/m/n/10 per-a-ture du-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+\OT1/cmr/m/n/10 saw-tooth crash.
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 96--96
+\OT1/cmr/m/n/10 the in-te-rior side
+ []
 
 
 <"../../../Dropbox/Graduate_School/Plasma/Plasma References/Hastie1".jpg, id=32
@@ -201,91 +339,112 @@ raphic file (type jpg)
 
 <use "../../../Dropbox/Graduate_School/Plasma/Plasma References/Hastie1".jpg>
 Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
-nces/Hastie1".jpg used on input line 97.
-(pdftex.def)             Requested size: 172.5pt x 145.29416pt.
+nces/Hastie1".jpg used on input line 104.
+(pdftex.def)             Requested size: 207.0021pt x 174.35435pt.
 
-[5 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References/Cha
-pman2.jpg>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
+[5] [6 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References
+/Chapman2.jpg> <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma Re
+ferences/Chapman3.jpg> <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/P
+lasma References/Yamada1.jpg>]
 <"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman4".jpg, id=3
-6, 261.22594pt x 251.43938pt>
+9, 261.22594pt x 251.43938pt>
 File: "../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman4".jpg 
 Graphic file (type jpg)
 
 <use "../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman4".jpg>
 Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
-nces/Chapman4".jpg used on input line 105.
-(pdftex.def)             Requested size: 172.5pt x 166.03873pt.
+nces/Chapman4".jpg used on input line 113.
+(pdftex.def)             Requested size: 207.0021pt x 199.24878pt.
 
-<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Hastie2".jpg, id=37
+Underfull \hbox (badness 1552) in paragraph at lines 114--114
+\OT1/cmr/m/n/10 sur-faces prior to re-con-
+ []
+
+
+Underfull \hbox (badness 6559) in paragraph at lines 114--114
+\OT1/cmr/m/n/10 nec-tion (ii)Reconnection
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+\OT1/cmr/m/n/10 of flux sur-faces
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--117
+
+ []
+
+[7 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References/Has
+tie1.jpg>] [8 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma Ref
+erences/Chapman4.jpg>]
+<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Hastie2".jpg, id=47
 , 656.4525pt x 451.6875pt>
 File: "../../../Dropbox/Graduate_School/Plasma/Plasma References/Hastie2".jpg G
 raphic file (type jpg)
 
 <use "../../../Dropbox/Graduate_School/Plasma/Plasma References/Hastie2".jpg>
 Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
-nces/Hastie2".jpg used on input line 112.
+nces/Hastie2".jpg used on input line 123.
 (pdftex.def)             Requested size: 172.5pt x 118.69035pt.
 
-<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Yamada2".jpg, id=38
+<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Yamada2".jpg, id=48
 , 388.45125pt x 466.74374pt>
 File: "../../../Dropbox/Graduate_School/Plasma/Plasma References/Yamada2".jpg G
 raphic file (type jpg)
 
 <use "../../../Dropbox/Graduate_School/Plasma/Plasma References/Yamada2".jpg>
 Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
-nces/Yamada2".jpg used on input line 118.
+nces/Yamada2".jpg used on input line 130.
 (pdftex.def)             Requested size: 172.5pt x 207.26942pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--124
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--124
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--124
-
- []
-
-[6 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References/Cha
-pman3.jpg> <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma Refere
-nces/Yamada1.jpg>] [7 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Pl
-asma References/Hastie1.jpg> <C:/Users/chasevjohnson/Dropbox/Graduate_School/Pl
-asma/Plasma References/Chapman4.jpg>] [8 <C:/Users/chasevjohnson/Dropbox/Gradua
-te_School/Plasma/Plasma References/Hastie2.jpg> <C:/Users/chasevjohnson/Dropbox
-/Graduate_School/Plasma/Plasma References/Yamada2.jpg>]
-<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman5".jpg, id=4
-9, 444.91219pt x 288.3272pt>
+[9 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References/Has
+tie2.jpg> <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma Referen
+ces/Yamada2.jpg>] [10]
+<"../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman5".jpg, id=5
+5, 444.91219pt x 288.3272pt>
 File: "../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman5".jpg 
 Graphic file (type jpg)
 
 <use "../../../Dropbox/Graduate_School/Plasma/Plasma References/Chapman5".jpg>
 Package pdftex.def Info: "../../../Dropbox/Graduate_School/Plasma/Plasma Refere
-nces/Chapman5".jpg used on input line 132.
-(pdftex.def)             Requested size: 172.5pt x 111.78722pt.
+nces/Chapman5".jpg used on input line 148.
+(pdftex.def)             Requested size: 207.0021pt x 134.14993pt.
 
-[9] [10 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma Reference
-s/Chapman5.jpg>] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+[][]\OT1/cmr/m/n/10 : |Sawtooth
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 149--149
+\OT1/cmr/m/n/10 pe-riod vs. NBI. Here
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--149
+\OT1/cmr/m/n/10 pos-i-tive are co-current
+ []
+
+[11 <C:/Users/chasevjohnson/Dropbox/Graduate_School/Plasma/Plasma References/Ch
+apman5.jpg>] [12]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ê in font cmr10!
- [12]
+ [13]
 ("C:\Users\chasevjohnson\Documents\GitHub\Plasma\Plasma Research Paper.aux") ) 
 Here is how much of TeX's memory you used:
- 1222 strings out of 493921
- 19208 string characters out of 3144852
- 71041 words of memory out of 3000000
- 4538 multiletter control sequences out of 15000+200000
+ 1447 strings out of 493921
+ 22576 string characters out of 3144852
+ 77282 words of memory out of 3000000
+ 4749 multiletter control sequences out of 15000+200000
  8848 words of font info for 31 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,19p,1180b,224s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,7n,21p,1335b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
 <
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
@@ -300,9 +459,9 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Plasma Research Paper.pdf" (12 pages, 987606 bytes).
+Output written on "Plasma Research Paper.pdf" (13 pages, 988097 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
+ 108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
